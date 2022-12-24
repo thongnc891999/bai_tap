@@ -1,0 +1,1 @@
+đây là trang show thong tin 1 sản phẩm
