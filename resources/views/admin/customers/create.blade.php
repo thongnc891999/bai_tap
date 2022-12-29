@@ -22,8 +22,18 @@
             </div>
             <br>
             <div class="col-md-10 col-sm-10 search">
+                <input type="number" name="tel" id="input" class="form-control" value=""
+                    placeholder="Phone">
+            </div>
+            <br>
+            <div class="col-md-10 col-sm-10 search">
                 <input type="date" name="birthday" id="input" class="form-control" value=""
                     placeholder="Birthday">
+            </div>
+            <br>
+            <div class="col-md-10 col-sm-10 search">
+                <input type="text" name="country" id="input" class="form-control" value=""
+                    placeholder="Country">
             </div>
             <br>
             <div class="col-md-10 col-sm-10">

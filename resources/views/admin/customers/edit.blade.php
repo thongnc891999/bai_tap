@@ -21,8 +21,18 @@
             </div>
             <br>
             <div class="col-md-10 col-sm-10">
+                <input type="number" name="tel" id="input" class="form-control" value="{{ $customer->tel }}"
+                    placeholder="Phone">
+            </div>
+            <br>
+            <div class="col-md-10 col-sm-10">
                 <input type="date" name="birthday" id="input" class="form-control" value="{{ $customer->birthday }}"
                     placeholder="Birthday">
+            </div>
+            <br>
+            <div class="col-md-10 col-sm-10">
+                <input type="text" name="country" id="input" class="form-control" value="{{ $customer->country }}"
+                    placeholder="Country">
             </div>
             <br>
             <div class="col-md-10 col-sm-10">

@@ -49,6 +49,7 @@
           <th scope="col">Tel</th>
           <th scope="col">Birthday</th>
           <th scope="col">Country</th>
+          <th scope="col">Gender</th>
           <th scope="col">Action</th>
         </tr>
       </thead>
@@ -60,8 +61,8 @@
             <td>{{ $customer->name }}</td>
             <td>{{ $customer->email }}</td>
             <td>{{ $customer->address }}</td>
-            <td>{{ $customer->birthday }}</td>
             <td>{{ $customer->tel }}</td>
+            <td>{{ $customer->birthday }}</td>
             <td>{{ $customer->country }}</td>
             <td>{{ $customer->gender_text }}</td>
             <td>
